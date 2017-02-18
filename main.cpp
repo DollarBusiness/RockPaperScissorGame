@@ -50,10 +50,6 @@ int game()
         cout << "YOU WIN!" << endl;
         cout << "Computer choice: Paper" << endl;
     }
-    else
-    {
-        cout << "Error occured." << endl; //THIS SHOULD NEVER POP UP, IF IT DOES THEN THERE IS AN ISSUE WITH CODE
-    }
 
     cout << "Play again? If so, press (y): ";
     cin >> answer;
